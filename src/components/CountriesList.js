@@ -1,6 +1,6 @@
 import CountryListItem from "./CountryListItem";
 
-const CountriesList = () => {
+const CountriesList = ({countriesList}) => {
     return(
         <>
             <h2>CountriesList here!</h2>

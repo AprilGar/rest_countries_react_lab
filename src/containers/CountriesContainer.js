@@ -25,7 +25,7 @@ const CountriesContainer = () => {
     return(
         <>
             <h1>I'm a country container!</h1>
-            <CountriesList />
+            <CountriesList countriesList={countries}/>
             <VisitedCountriesList/>
         </>
     );

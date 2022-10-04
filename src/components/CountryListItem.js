@@ -1,4 +1,4 @@
-const CountryListItem = () => {
+const CountryListItem = ({countriesList}) => {
     return (
         <li>One CountryListItem!</li>
     );
